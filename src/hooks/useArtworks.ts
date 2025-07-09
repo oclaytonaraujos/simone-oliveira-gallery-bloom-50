@@ -49,8 +49,7 @@ export const useFeaturedArtworks = () => {
         .from('artworks')
         .select('*')
         .eq('featured', true)
-        .order('created_at', { ascending: false })
-        .limit(6);
+        .order('created_at', { ascending: false });
       
       if (error) {
         console.error('Error fetching featured artworks:', error);

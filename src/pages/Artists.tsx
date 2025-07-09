@@ -61,7 +61,7 @@ const Artists = () => {
 
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 bg-gentle-green/20 rounded-xl shadow-lg">
-                <div className="font-semplicita text-3xl font-light text-warm-terracotta mb-2">35+</div>
+                <div className="font-semplicita text-3xl font-light text-warm-terracotta mb-2">50+</div>
                 <div className="font-helvetica text-sm text-deep-black/70">Obras Criadas</div>
               </div>
               <div className="text-center p-6 bg-gentle-green/20 rounded-xl shadow-lg">
@@ -69,11 +69,11 @@ const Artists = () => {
                 <div className="font-helvetica text-sm text-deep-black/70">Exposições</div>
               </div>
               <div className="text-center p-6 bg-gentle-green/20 rounded-xl shadow-lg">
-                <div className="font-semplicita text-3xl font-light text-warm-terracotta mb-2">15+</div>
+                <div className="font-semplicita text-3xl font-light text-warm-terracotta mb-2">20+</div>
                 <div className="font-helvetica text-sm text-deep-black/70">Anos de Carreira</div>
               </div>
               <div className="text-center p-6 bg-gentle-green/20 rounded-xl shadow-lg">
-                <div className="font-semplicita text-3xl font-light text-warm-terracotta mb-2">15+</div>
+                <div className="font-semplicita text-3xl font-light text-warm-terracotta mb-2">25+</div>
                 <div className="font-helvetica text-sm text-deep-black/70">Colecionadores</div>
               </div>
             </div>
@@ -94,7 +94,9 @@ const Artists = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <img src="/lovable-uploads/e06b8e32-b139-4ac9-9789-dd2d68767dca.png" alt="Simone pintando em seu ateliê" className="w-full h-80 object-cover rounded-2xl shadow-lg hover-lift-elegant" />
+            <div className="bg-gentle-green/20 rounded-2xl p-4 shadow-lg hover-lift-elegant">
+              <img src="/lovable-uploads/e06b8e32-b139-4ac9-9789-dd2d68767dca.png" alt="Simone pintando em seu ateliê" className="w-full h-auto object-contain rounded-xl" />
+            </div>
             <div className="text-center">
               <h3 className="font-semplicita text-lg font-light text-deep-black">Intuição Emocional</h3>
               <p className="font-helvetica text-sm text-deep-black/70">O ponto de partida é sempre o sentir</p>
@@ -102,7 +104,9 @@ const Artists = () => {
           </div>
 
           <div className="space-y-4">
-            <img src="/lovable-uploads/79f14aaa-ddef-4045-8d3e-50714c9dc43b.png" alt="Simone em seu ateliê" className="w-full h-80 object-cover rounded-2xl shadow-lg hover-lift-elegant" />
+            <div className="bg-gentle-green/20 rounded-2xl p-4 shadow-lg hover-lift-elegant">
+              <img src="/lovable-uploads/79f14aaa-ddef-4045-8d3e-50714c9dc43b.png" alt="Simone em seu ateliê" className="w-full h-auto object-contain rounded-xl" />
+            </div>
             <div className="text-center">
               <h3 className="font-semplicita text-lg font-light text-deep-black">Exploração Matérica</h3>
               <p className="font-helvetica text-sm text-deep-black/70">A textura é linguagem</p>
@@ -110,7 +114,9 @@ const Artists = () => {
           </div>
 
           <div className="space-y-4">
-            <img src="/lovable-uploads/03348f07-97c9-429b-a76d-774e1979a3e4.png" alt="Simone com seus pincéis" className="w-full h-80 object-cover rounded-2xl shadow-lg hover-lift-elegant" />
+            <div className="bg-gentle-green/20 rounded-2xl p-4 shadow-lg hover-lift-elegant">
+              <img src="/lovable-uploads/03348f07-97c9-429b-a76d-774e1979a3e4.png" alt="Simone com seus pincéis" className="w-full h-auto object-contain rounded-xl" />
+            </div>
             <div className="text-center">
               <h3 className="font-semplicita text-lg font-light text-deep-black">Narrativa Silenciosa</h3>
               <p className="font-helvetica text-sm text-deep-black/70">A arte como espaço de contemplação</p>
