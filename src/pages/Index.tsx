@@ -217,32 +217,32 @@ const Index = () => {
           </div>
 
           <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
-            <div className="flex-shrink-0">
+            <div className="bg-gentle-green/20 rounded-2xl p-4 shadow-lg hover-lift-elegant">
               <img
                 src="/lovable-uploads/e06b8e32-b139-4ac9-9789-dd2d68767dca.png"
                 alt="Simone Oliveira pintando em seu ateliê"
-                className="h-48 sm:h-64 w-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-auto h-auto max-h-48 sm:max-h-64 object-contain rounded-xl"
               />
             </div>
-            <div className="flex-shrink-0">
+            <div className="bg-gentle-green/20 rounded-2xl p-4 shadow-lg hover-lift-elegant">
               <img
                 src="/lovable-uploads/79f14aaa-ddef-4045-8d3e-50714c9dc43b.png"
                 alt="Simone Oliveira criando arte"
-                className="h-48 sm:h-64 w-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-auto h-auto max-h-48 sm:max-h-64 object-contain rounded-xl"
               />
             </div>
-            <div className="flex-shrink-0">
+            <div className="bg-gentle-green/20 rounded-2xl p-4 shadow-lg hover-lift-elegant">
               <img
                 src="/lovable-uploads/simone-pintando.jpg"
                 alt="Simone Oliveira criando arte"
-                className="h-48 sm:h-64 w-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-auto h-auto max-h-48 sm:max-h-64 object-contain rounded-xl"
               />
             </div>
-            <div className="flex-shrink-0">
+            <div className="bg-gentle-green/20 rounded-2xl p-4 shadow-lg hover-lift-elegant">
               <img
                 src="/lovable-uploads/03348f07-97c9-429b-a76d-774e1979a3e4.png"
                 alt="Simone Oliveira com pincéis"
-                className="h-48 sm:h-64 w-auto object-contain rounded-xl shadow-lg hover-lift-elegant touch-manipulation"
+                className="w-auto h-auto max-h-48 sm:max-h-64 object-contain rounded-xl"
               />
             </div>
           </div>
