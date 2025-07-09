@@ -71,6 +71,9 @@ const ArtworkGrid = ({ exhibitionId, featuredOnly = false }: ArtworkGridProps) =
                   <h3 className="font-semplicita text-lg sm:text-xl text-soft-beige mb-2 font-light">
                     {artwork.title}
                   </h3>
+                  <p className="font-helvetica text-soft-beige/90 text-sm mb-1 font-medium">
+                    {artwork.artist}
+                  </p>
                   <p className="font-helvetica text-soft-beige/80 text-sm mb-1">
                     {artwork.year} • {artwork.medium}
                   </p>

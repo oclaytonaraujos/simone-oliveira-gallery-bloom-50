@@ -5,6 +5,7 @@ import { supabase } from '@/integrations/supabase/client';
 export interface Artwork {
   id: string;
   title: string;
+  artist: string;
   image: string;
   year: string;
   medium: string;

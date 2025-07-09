@@ -40,6 +40,7 @@ export type Database = {
       }
       artworks: {
         Row: {
+          artist: string | null
           created_at: string
           description: string | null
           dimensions: string | null
@@ -53,6 +54,7 @@ export type Database = {
           year: string
         }
         Insert: {
+          artist?: string | null
           created_at?: string
           description?: string | null
           dimensions?: string | null
@@ -66,6 +68,7 @@ export type Database = {
           year: string
         }
         Update: {
+          artist?: string | null
           created_at?: string
           description?: string | null
           dimensions?: string | null
